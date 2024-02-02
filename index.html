@@ -1,0 +1,273 @@
+<html>
+
+<head>
+    <title>Recomend Best Movie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/0cb7460249.js" crossorigin="anonymous"></script>
+
+   
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	
+	<style>
+        
+		*{
+          font-family: "Bebas Neue";
+		  }
+        
+		h2{
+          font-family: "Bebas Neue";
+		  }
+	</style>
+</head>
+
+<body bgcolor="black">
+
+    <center>
+        <div>
+            <img src="background.png" alt="" width="100%">
+        </div>
+    </center>
+	<center>
+    <div class="w3-container" style="background-color: black;">
+        <div class="w3-container">
+            <button class="w3-button w3-hover-black" style="color:red;" onclick="navbar('home')">HOME</button>
+            <button class="w3-button w3-hover-black" style="color:red;" onclick="navbar('action')">ACTION</button>
+            <button class="w3-button  w3-hover-black " style="color:red;" onclick="navbar('drama')">DRAMA</button>
+            <button class="w3-button  w3-hover-black" style="color:red;" onclick="navbar('thriller')">THRILLER</button>
+            <div class="w3-dropdown-hover button w3-hover-black">
+                <button class="w3-button button w3-hover-black" style="color:red;">POPULER <i class="fa-solid fa-caret-down"></i></button>
+
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 ">
+                    <button class="w3-bar-item w3-button  w3-hover-black" onclick="navbar('2021')">2021</button>
+                    <button class="w3-bar-item w3-button  w3-hover-black" onclick="navbar('2022')">2022</button>
+                    <button class="w3-bar-item w3-button w3-hover-black" onclick="navbar('2023')">2023</button>
+                </div>
+            </div>
+            <button class="w3-button w3-right w3-hover-black" style="color:red;" onclick="navbar('profile')">Profile</button>
+        </div>
+    </div>
+    <div class="w3-container home">
+        <div id="home" class="w3-container item w3-animate-zoom" style="margin-top: 200px;">
+            <center>
+                <div>
+				
+				
+                    <h2 style="color:red;">
+					
+                         Welcome to G - FLIX and CHILL
+                    </h2>
+                </div>
+				
+            </center>
+        </div>
+        <div id="action" class="w3-container item w3-animate-left" style="display: none;">
+            <!-- ACTION -->
+            <h2 style="color:white;" class="w3-margin-top">Action Genre</h2> 
+            <p style="color:white;">Action film is a film genre in which the protagonist is thrust into a series of events <br> that
+                typically involve violence and physical feats.</p>
+            <div class="w3-row-padding" style="margin-top: 10px !important;">
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="furious.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2 style="color:black;"> Fast & Furious8 </h2> Film
+                        <div class="w3-tag w3-black w3-round">2017</div> 
+                        <p style="color:black;">Dom is framed by a mysterious woman named Cipher - causing him to defect to the world of terrorism. The remaining crew must unite to stop the Cipher gang who are ready to launch a nuclear bomb.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="endgame2.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Avengers End Game </h2> Film
+                        <div class="w3-tag w3-black w3-round">2019</div>
+                        <p>Continuing Avengers Infinity War, where events occurred after Thanos managed to get all the infinity stones and destroyed 50% of all living things in the universe. Will the Avengers succeed in defeating Thanos?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="drama" class="w3-container item  " style="display: none;">
+            <h2 style="color:white;" class="w3-margin-top">Action Genre</h2>
+            <p style="color:white;">Drama or Movies involve romantic love stories recorded in visual media <br> for broadcast in theatres or
+                on television that focus on passion, emotion.</p>
+            <div class="w3-row-padding" style="margin-top: 10px !important; ">
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="samdalri.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Welcome to Samdal-ri </h2>
+                        <div class="w3-tag w3-black w3-round">2023</div> 16 episodes
+                        <p>Welcome to Samdal-ri tells the story of the characters Cho Yong Pil and Cho Sam Dal who live on Jeju Island. They seemed destined to always be together from birth.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="snowdrop.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Snowdrop </h2>
+                        <div class="w3-tag w3-black w3-round">2021</div> 16 episodes
+                        <p>Set in 1987, Snowdrop tells the story of Im Soo Ho (Jung Hae In), a North Korean spy who disguises himself as a student of German descent. In disguise, Soo Ho actually becomes involved in a love story with Eun Young Ro (Kim Ji-soo), an English Literature student at Hosu Women's University.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="thriller" class="w3-container item w3-animate-left " style="display: none;">
+            <h2 style="color:white;" class="w3-margin-top ">Thriller Genre</h2>
+            <p style="color:white;">Thriller film, also known as suspense film or suspense thriller, <br> is a broad film genre that evokes
+                excitement and suspense in the audience.</p>
+            <div class="w3-row-padding" style="margin-top: 10px !important; ">
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="chucky.jpeg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Chucky </h2>
+                        <div class="w3-tag w3-black w3-round">2021</div> Film
+                        <p>Karen, a single mother, gives her son a rare doll as a birthday present. However, he was completely unaware that the scary doll was possessed by the spirit of a serial killer.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="joker2.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Joker </h2>
+                        <div class="w3-tag w3-black w3-round">2019</div> Film
+                        <p>Arthur Fleck, a party clown, lives in difficult circumstances with his sickly mother. Because people thought he was strange, he decided to turn evil and create chaos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="2021" class="w3-container item" style="display: none;">
+            <h2 style="color:white;" class="w3-margin-top">Populer 2021</h2>
+            <p style="color:white;">POPULER MOVIE ON 2021
+            </p>
+            <div class="w3-row-padding" style="margin-top: 10px !important; ">
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="dontbreathe.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Dont Breathe 2 </h2>
+                        <div class="w3-tag w3-black w3-round">2021</div> Film
+                        <p>Hiding for years in a remote cabin, Norman Nordstrom has rescued and raised a young orphaned girl from a house fire. Their existence is disrupted when a group of kidnappers appear and take the girl, forcing Norman to leave his hiding place to rescue her.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="squid.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Squid Game </h2>
+                        <div class="w3-tag w3-black w3-round">2021</div> 16 Episodes
+                        <p>tells the story of a children's game modified to be more tense and even risking lives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="2022" class="w3-container item w3-animate-left " style="display: none;">
+            <h2 style="color:white;" class="w3-margin-top">Populer 2022</h2>
+            <p style="color:white;">POPULER MOVIE ON 2022
+            </p>
+            <div class="w3-row-padding" style="margin-top: 10px !important; ">
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="avatar.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Avatar </h2>
+                        <div class="w3-tag w3-black w3-round">2022</div> Film
+                        <p>Set more than a decade after the events of the first film, “Avatar: The Way of Water” begins to tell the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="topgun1.jpeg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Top Gun </h2>
+                        <div class="w3-tag w3-black w3-round">2022</div> Film
+                        <p>After losing his best friend, Maverick gets a second chance at redemption. She strives to be the best and is also romantically involved with her civilian instructor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="2023" class="w3-container item" style="display: none;">
+            <h2 style="color:white;" class="w3-margin-top">Populer 2023</h2>
+            <p style="color:white;">Populer Movie On 2023 <br>
+              
+            <div class="w3-row-padding" style="margin-top: 10px !important; ">
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="wick.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> John Wick-4</h2>
+                        <div class="w3-tag w3-black w3-round">2023</div> Film
+                        <p>John Wick (Keanu Reeves) finds a way to defeat The High Table. But before he can gain his freedom, Wick must face a new enemy with powerful alliances across the globe! Forcing him to turn old friends into enemies.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-card-2 w3-round-large w3-grey w3-col s12 m5 w3-animate-opacity gg">
+                    <img src="aqua.jpg" alt="" class="w3-col s12 m3">
+                    <div class="w3-col s12 m9" style="padding: 0px 10px 0px 20px;">
+                        <h2> Aquaman </h2>
+                        <div class="w3-tag w3- w3-round">2023</div> Film
+                        <p>After failing to defeat Aquaman the first time, Black Manta, still driven by the need to avenge his father's death, will stop at nothing to take Aquaman down once and for all. This time Black Manta is tougher than ever, wielding the power of the mystical Black Trident, which unleashes ancient and evil powers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="profile" class="w3-container item" style="display: none;">
+            <center>
+            <div style="margin-top: 70px; margin-bottom: 20px;">
+                <img src="profile.jpg" alt="" width="15%">
+            </div>
+            <div style="color:white;">
+                Muhamad Azka Fasha Pratama <br>
+                10123452 <br>
+                Informatika 11
+            </div>
+            </center>
+        </div>
+</body>
+
+</html>
+<style>
+    h2 {
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    p {
+        margin-bottom: 0px;
+    }
+
+    .gg {
+        padding: 20px !important;
+        margin: 20px 30px 20px 0px;
+        transition-duration: 500ms;
+    }
+
+    .gg:hover {
+        margin-top: 10px;
+        transition-duration: 500ms;
+    }
+
+    .item {
+        margin-left: 40px;
+    }
+    .pp{
+	width: 150px;
+	height: 150px;
+	background: #dac52c;
+	border-radius: 100%;
+}
+    @media (max-width : 720px) {
+        .item {
+            margin-left: 0px;
+        }
+    }
+</style>
+
+<script>
+    function navbar(navitem) {
+        var i;
+        var x = document.getElementsByClassName("item");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(navitem).style.display = "block";
+    }
+</script>
